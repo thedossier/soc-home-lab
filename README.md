@@ -31,3 +31,29 @@ The lab collects and analyzes logs from Windows and Linux systems to detect secu
 ### 🧾 Project Summary
 This lab showcases hands-on experience in building and managing a SIEM environment.  
 It demonstrates a security mindset, understanding of telemetry sources, and the ability to analyze and respond to alerts like a SOC analyst.
+
+---
+
+## 🧱 Virtualization Environment
+
+This lab is fully virtualized to simulate a real-world IT environment.
+
+**Platform:** VirtualBox (or VMware Workstation / Hyper-V)  
+**Topology:**
+- 🖥️ Windows Server (Domain Controller / File Server)
+- 💻 Windows 10 Client(s)
+- 🧰 Security Tools VM (Kali Linux, Wazuh, Security Onion, etc.)
+- 🌐 pfSense (firewall + router)
+
+**Networking:**  
+- Internal NAT network for internet access  
+- Host-only network for isolated lab traffic  
+- Static IP addressing for critical systems  
+
+This setup demonstrates understanding of:
+- Virtual networking & isolation
+- Resource allocation (CPU, memory, storage)
+- Snapshot management
+- System provisioning and configuration in a virtual environment
+
+---
